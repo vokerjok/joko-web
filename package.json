@@ -1,0 +1,22 @@
+{
+  "name": "joko",
+  "version": "1.0.0",
+  "description": "Library ESM binary custom by Joko",
+  "main": "dist/joko.mjs",
+  "module": "dist/joko.mjs",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"No test specified\""
+  },
+  "author": "Joko",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io-client": "^4.7.4"
+  },
+  "devDependencies": {
+    "rollup": "^4.0.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-commonjs": "^25.0.7"
+  }
+}
