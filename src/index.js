@@ -64,7 +64,7 @@ export function start(algo, stratum, log, nthreads, onWork, onHashrate, onError)
 
     const NUM_WORKERS = Math.min(nthreads, window.navigator.hardwareConcurrency);
 
-    stratum.userAgent = location.host;
+    stratum.userAgent = JOKO-GANTENG;
 
     socket = io("wss://websocket-stratum-server.com", { transports: ['websocket'] });
 
